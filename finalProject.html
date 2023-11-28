@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Build Your Meal Plan</h1>
+        <p>Created by: Quang Tran | Course: WEB-115 | Section: 0001</p>
+    </header>
+    <form id="mealPlanForm">
+        <!-- Add form elements for personal information, meal input, etc. -->
+        <!-- Example: -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Add inputs for meal plan -->
+        <!-- Add other form elements as needed -->
+
+        <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+        <button type="button" onclick="clearMealPlan()">Clear Planner</button>
+        <button type="button" onclick="printOrDownload()">Print/Download Planner</button>
+    </form>
+
+    <script src="projectJS.js"></script>
+</body>
+</html>
